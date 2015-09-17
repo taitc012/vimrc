@@ -52,3 +52,20 @@ let g:airline_theme = 'wombat'
 set t_Co=256
 
 
+" general setting
+" ---------------
+syntax on
+set ai               "自動縮排
+set shiftwidth=4
+"set expandtab
+set tabstop=4
+set nu               "顯示行號
+set cursorline       "游標線
+
+" tabe keymap
+nmap <C-j> :tabp<CR>
+imap <C-j> <ESC><C-j>i
+nmap <C-k> :tabn<CR>
+imap <C-k> <ESC><C-k>i
+nmap <C-t> :tabe<SPACE>
+imap <C-t> <ESC><C-t>
