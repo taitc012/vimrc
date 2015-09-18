@@ -69,3 +69,5 @@ nmap <C-k> :tabn<CR>
 imap <C-k> <ESC><C-k>i
 nmap <C-t> :tabe<SPACE>
 imap <C-t> <ESC><C-t>
+" map nerdtree key
+map <C-n> :NERDTreeToggle<CR>
