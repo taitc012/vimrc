@@ -32,7 +32,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 
-" vim-airline config
+""""" vim-airline config
 "set status line
 set laststatus=2
 " enable powerline-fonts
@@ -48,6 +48,10 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 " air-line theme
 "let g:airline_theme = 'ubaryd'
 let g:airline_theme = 'wombat'
+
+""""" NERDtree config
+" to open a file in new tab
+let NERDTreeMapOpenInTab='<ENTER>' " or \r
 
 set t_Co=256
 
