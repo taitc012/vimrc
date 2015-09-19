@@ -14,6 +14,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'bling/vim-airline'
 "nerdtree
 Plugin 'scrooloose/nerdtree'
+"vim-nerdtree-tabs
+Plugin 'jistr/vim-nerdtree-tabs'
 
 
 " All of your Plugins must be added before the following line
@@ -67,11 +69,11 @@ set nu               "顯示行號
 set cursorline       "游標線
 
 " tabe keymap
-nmap <C-j> :tabp<CR>
+nmap <C-j> gT<CR>
 imap <C-j> <ESC><C-j>i
-nmap <C-k> :tabn<CR>
+nmap <C-k> gt<CR>
 imap <C-k> <ESC><C-k>i
 nmap <C-t> :tabe<SPACE>
 imap <C-t> <ESC><C-t>
 " map nerdtree key
-map <C-n> :NERDTreeToggle<CR>
+map <C-n> :NERDTreeTabsToggle<CR>
