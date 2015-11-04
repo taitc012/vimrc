@@ -67,8 +67,11 @@ set shiftwidth=4
 set tabstop=4
 set nu               "顯示行號
 set cursorline       "游標線
-set bg=dark
-set hlsearch
+set bg=dark          "setting dark background
+set hlsearch		 "search highlight
+
+"clear last highlighting
+nmap <C-z> :noh<CR> 
 
 " tabe keymap
 nmap <C-j> gT<CR>
