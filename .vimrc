@@ -68,6 +68,7 @@ set tabstop=4
 set nu               "顯示行號
 set cursorline       "游標線
 set bg=dark          "setting dark background
+set backspace=2      "setting backspace
 set hlsearch		 "search highlight
 
 "clear last highlighting
