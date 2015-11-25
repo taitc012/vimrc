@@ -16,6 +16,9 @@ Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
 "vim-nerdtree-tabs
 Plugin 'jistr/vim-nerdtree-tabs'
+"supertab
+Plugin 'ervandew/supertab'
+
 
 
 " All of your Plugins must be added before the following line
