@@ -1,7 +1,6 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-colorscheme Tomorrow-Night
 
 "set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -22,8 +21,12 @@ Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'ervandew/supertab'
 "tagbar
 Plugin 'majutsushi/tagbar'
-"base16-vim
+"base16-vim ???
 Plugin 'chriskempson/base16-vim'
+" vim-colorscheme
+Plugin 'flazz/vim-colorschemes'
+" colorselector
+Plugin 'elic-eon/colorselector.vim'
 
 
 
@@ -57,8 +60,7 @@ let g:airline#extensions#tabline#enabled = 1
 " show buffer number
 let g:airline#extensions#tabline#buffer_nr_show = 1
 " air-line theme
-"let g:airline_theme = 'ubaryd'
-let g:airline_theme = 'wombat'
+let g:airline_theme = 'bubblegum'
 
 """"" NERDtree config
 " to open a file in new tab
@@ -69,7 +71,7 @@ set t_Co=256
 
 " general setting
 " ---------------
-syntax on
+"syntax on
 set ai               "自動縮排
 set shiftwidth=4
 "set expandtab
@@ -93,4 +95,10 @@ imap <C-t> <ESC><C-t>
 " map nerdtree key
 map <C-n> :NERDTreeTabsToggle<CR>
 " tagbar hotkey
-nmap <C-m> :TagbarToggle<CR>
+"nmap <C-m> :TagbarToggle<CR>
+
+"colorscheme Tomorrow-Night
+try
+	colorscheme bvemu
+catch
+endtry
