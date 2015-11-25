@@ -1,6 +1,8 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+colorscheme Tomorrow-Night
+
 "set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -18,6 +20,10 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 "supertab
 Plugin 'ervandew/supertab'
+"tagbar
+Plugin 'majutsushi/tagbar'
+"base16-vim
+Plugin 'chriskempson/base16-vim'
 
 
 
@@ -86,3 +92,5 @@ nmap <C-t> :tabe<SPACE>
 imap <C-t> <ESC><C-t>
 " map nerdtree key
 map <C-n> :NERDTreeTabsToggle<CR>
+" tagbar hotkey
+nmap <C-m> :TagbarToggle<CR>
