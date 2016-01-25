@@ -27,6 +27,10 @@ Plugin 'chriskempson/base16-vim'
 Plugin 'flazz/vim-colorschemes'
 " colorselector
 Plugin 'elic-eon/colorselector.vim'
+Plugin 'blueshirts/darcula'
+" vim-markdown
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 
 
 
@@ -66,6 +70,12 @@ let g:airline_theme = 'bubblegum'
 " to open a file in new tab
 let NERDTreeMapOpenInTab='<ENTER>' " or \r
 
+"""" vim-markdown config
+let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_folding_style_pythonic = 1
+
+
+
 set t_Co=256
 
 
@@ -100,5 +110,6 @@ map <C-n> :NERDTreeTabsToggle<CR>
 "colorscheme Tomorrow-Night
 try
 	colorscheme bvemu
+"	colorscheme darcula
 catch
 endtry
