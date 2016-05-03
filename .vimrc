@@ -13,6 +13,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 "vim-airline
 Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 "nerdtree
 Plugin 'scrooloose/nerdtree'
 "vim-nerdtree-tabs
