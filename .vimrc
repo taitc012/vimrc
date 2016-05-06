@@ -85,13 +85,16 @@ set t_Co=256
 "syntax on
 set ai               "自動縮排
 set shiftwidth=4
-"set expandtab
+set expandtab
 set tabstop=4
 set nu               "顯示行號
 set cursorline       "游標線
 set bg=dark          "setting dark background
 set backspace=2      "setting backspace
 set hlsearch		 "search highlight
+
+#set list
+#set listchars=tab:>-,eol:¬,extends:❯,precedes:❮,trail:·
 
 "clear last highlighting
 nmap <C-z> :noh<CR> 
