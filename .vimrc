@@ -93,8 +93,8 @@ set bg=dark          "setting dark background
 set backspace=2      "setting backspace
 set hlsearch		 "search highlight
 
-#set list
-#set listchars=tab:>-,eol:¬,extends:❯,precedes:❮,trail:·
+"set list
+"set listchars=tab:>-,eol:¬,extends:❯,precedes:❮,trail:·
 
 "clear last highlighting
 nmap <C-z> :noh<CR> 
