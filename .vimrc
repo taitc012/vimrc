@@ -55,7 +55,7 @@ filetype plugin indent on    " required
 "set status line
 set laststatus=2
 " enable powerline-fonts
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 0
 "enable tabline
 let g:airline#extensions#tabline#enabled = 1
 " set left separator
