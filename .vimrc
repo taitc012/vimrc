@@ -82,7 +82,7 @@ set t_Co=256
 
 " general setting
 " ---------------
-"syntax on
+syntax on
 set ai               "自動縮排
 set softtabstop=4
 set shiftwidth=4
