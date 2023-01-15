@@ -27,7 +27,7 @@ Plugin 'chriskempson/base16-vim'
 " vim-colorscheme
 Plugin 'flazz/vim-colorschemes'
 " colorselector
-Plugin 'elic-eon/colorselector.vim'
+Plugin 'c9s/colorselector.vim'
 Plugin 'blueshirts/darcula'
 " vim-markdown
 Plugin 'godlygeek/tabular'
